@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.loanii.dailytaskmanager'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.loanii.dailytaskmanager'
+        minSdk 23
+        targetSdk 35
+        versionCode 4
+        versionName '2.2-ai'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
